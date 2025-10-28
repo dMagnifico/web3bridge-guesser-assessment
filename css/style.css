@@ -1,0 +1,83 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.game-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #1a202c;
+}
+
+.input-area {
+    margin: 1.5rem 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+#guess-input {
+    flex-grow: 1;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Hides the default number input arrows */
+#guess-input::-webkit-outer-spin-button,
+#guess-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4299e1;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #2b6cb0;
+}
+
+#feedback {
+    font-size: 1.1rem;
+    font-weight: bold;
+    min-height: 1.5rem; /* Prevents layout jump */
+}
+
+/* Feedback message styling */
+#feedback.win { color: #38a169; }
+#feedback.lose { color: #e53e3e; }
+#feedback.info { color: #4a5568; }
+
+#restart-button {
+    background-color: #718096;
+}
+
+#restart-button:hover {
+    background-color: #4a5568;
+}
+
+.hidden {
+    display: none;
+}
