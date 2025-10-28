@@ -2,7 +2,7 @@
 
 This is a simple number-guessing game built for the Web3Bridge Cohort XIV pre-qualification exercise.
 
-**Live Demo:** https://github.com/dMagnifico/web3bridge-guesser-assessment
+**Live Demo:** (https://dmagnifico.github.io/web3bridge-guesser-assessment/)
 
 ## 🎮 How to Play
 
