@@ -2,7 +2,7 @@
 
 This is a simple number-guessing game built for the Web3Bridge Cohort XIV pre-qualification exercise.
 
-**Live Demo:** [Link to your GitHub Pages URL]
+**Live Demo:** https://github.com/dMagnifico/web3bridge-guesser-assessment
 
 ## 🎮 How to Play
 
@@ -27,7 +27,7 @@ This is a simple number-guessing game built for the Web3Bridge Cohort XIV pre-qu
 
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/web3bridge-guesser.git](https://github.com/YOUR_USERNAME/web3bridge-guesser.git)
+    git clone [https://github.com/YOUR_USERNAME/web3bridge-guesser.git]
     ```
 2.  Navigate to the project directory:
     ```bash
